@@ -1,0 +1,17 @@
+{
+  "name": "interactionfree-node",
+  "productName": "InteractionFreeNode",
+  "version": "0.0.12",
+  "description": "InteractionFreeNode",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Hwaipy",
+    "email": "hwaipy@gmail.com"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../.erb/scripts/BabelRegister.js ../.erb/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}

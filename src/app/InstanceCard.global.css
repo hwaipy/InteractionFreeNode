@@ -1,0 +1,43 @@
+.applicationCard {
+  height: 60px
+}
+
+.languageLogo,
+.languageLogoOn,
+.languageLogoOff {
+  position: absolute;
+  top: 18px;
+  left: 40px;
+}
+
+.languageLogoOn {
+  fill: #11A661;
+}
+
+.languageLogoOff {
+  fill: #C2C2C2;
+}
+
+.title,
+.titlePrimary,
+.titleSecondary {
+  position: absolute;
+  left: 75px;
+  font-family: Arial, 'Times New Roman', 'Microsoft YaHei', SimHei;
+}
+
+.titlePrimary {
+  top: 16px;
+  font-size: 16px
+}
+
+.titleSecondary {
+  top: 38px;
+  font-size: 12px;
+  color: #666666;
+}
+
+.titleApplication {
+  font-size: 12px;
+  color: #003BFF;
+}

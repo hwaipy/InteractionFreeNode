@@ -1,0 +1,44 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+
+body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+#root {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.root {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.applicationUpdate {
+  position: absolute;
+  bottom: 12px;
+  left: 20px
+}
+
+.NeedUpdateIcon {
+  fill: #d46205;
+}
+
+.UpdateToDateIcon {
+  fill: #0d740d;
+}
+
+.timeSync {
+  position: absolute;
+  bottom: 52px;
+  left: 10px;
+  font-size: 10px;
+}

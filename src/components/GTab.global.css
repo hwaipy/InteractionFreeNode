@@ -1,0 +1,40 @@
+button {
+  padding: 0;
+  background-color: transparent;
+  color: #000000;
+  border: 0px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button.selected {
+  background-color: #F8F8F8;
+}
+
+.root {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  margin-top: 0;
+}
+
+.labelBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #E0E0E0;
+}
+
+.gtabContent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.labelContent {
+  background-color: #F8F8F8;
+}
